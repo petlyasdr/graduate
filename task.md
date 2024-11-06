@@ -11,10 +11,10 @@
 The ITMO student graduated from 9th grade back in 2016. Determine the country in which the student studied, if it is known that he used the YandexMusic service. Student’s name Marakuev Ilya.
 
 Решение
-1. Устанавливаем инструмент OSINT YaSeeker (files/step1.png)
-2. Подгружаем cookie-файлы в репозиторий YaSeeker с тестового аккаунта Яндекс для корректной работы инструмента OSINT (files/step2.png)
+1. Устанавливаем инструмент OSINT YaSeeker (graduate/step1.png)
+2. Подгружаем cookie-файлы в репозиторий YaSeeker с тестового аккаунта Яндекс для корректной работы инструмента OSINT (graduate/step2.png)
 3. Через терминал инициируем работу инструмента при помощи команды 
 - python ya_seeker.py  «возможные комбинации  фамилии имени студента на латинице»
-И находим совпадение (files/step3.png)
-4. Анализируем полученные данные и находим ссылку на аватарку пользователя (files/step4.png)
-5. Переходим по ссылке, чтобы посмотреть аватарку пользователя (files/step5.png)
+И находим совпадение (graduate/step3.png)
+4. Анализируем полученные данные и находим ссылку на аватарку пользователя (graduate/step4.png)
+5. Переходим по ссылке, чтобы посмотреть аватарку пользователя (graduate/step5.png)
